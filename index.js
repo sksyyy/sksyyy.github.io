@@ -2,7 +2,7 @@
 /// <reference path="imagedetect.js">
 /// <reference path="https://runeapps.org/apps/alt1/alt1api.html">
 "use strict";
-
+const needle = null;
 ImageData.fromBase64( function (i)
 {
     needle = i
@@ -22,9 +22,10 @@ function elid(id)
 
 function Setup(){
     /*
-    var rs = a1lib.bindfullrs();
-    console.log(rs);
-    var region = a1lib.bindregion(rs.x, rs.y, rs.width, rs.height);
-    console.log(region);*/
+    var bounds = a1lib.bindfullrs();
+
+    */
     console.log(needle);
+
+    
 }
