@@ -17,5 +17,5 @@ function elid(id)
 function Setup(){
     var rs = a1lib.bindfullrs();
     console.log(rs);
-    a1lib.bindregion(rs);
+    a1lib.bindregion(rs.x, rs.y, rs.width, rs.height);
 }
