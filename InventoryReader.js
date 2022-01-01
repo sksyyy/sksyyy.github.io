@@ -11,5 +11,6 @@ function InventoryReader(){
         if(!img) return null;
 
         var icon = a1lib.findsubimg(img, InventoryReader.icon);
+        console.log(icon);
     }
 }
