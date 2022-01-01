@@ -34,7 +34,7 @@ function Setup(){
 
 function InventoryReader(){
     this.read = function(imgref){
-        var img = a1lib.findsubimg(imgref, InventoryReader.needle);
+        var img = a1lib.findsubimg(imgref, needle);
         console.log(img);
     }
 }
