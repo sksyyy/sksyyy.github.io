@@ -2,7 +2,7 @@
 /// <reference path="imagedetect.js">
 /// <reference path="https://runeapps.org/apps/alt1/alt1api.html">
 "use strict";
-const needle = null;
+var needle = null;
 ImageData.fromBase64( function (i)
 {
     needle = i
@@ -23,8 +23,7 @@ function elid(id)
 function Setup(){
     /*
     var bounds = a1lib.bindfullrs();
-
-    */
+    InterfaceTracker(bounds, needle);*/
     console.log(needle);
 
     
